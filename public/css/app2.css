@@ -1,0 +1,52 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+a{
+    color: #4285F4;
+}
+h1, h2, h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+legend{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+ul.sidebar{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul.sidebar-nav {
+     margin: 0;
+     padding: 0;
+ }
+
+ul.sidebar-nav li {
+    display: inline-block;
+    line-height: 45px;
+    width: 100%;
+}
+ul.sidebar-nav li a {
+    color: #6a6a6a;
+    display: inline-block;
+    line-height: 45px;
+    padding: 0 10px;
+    width: 100%;
+    text-decoration: none;
+}
+ul.sidebar-nav li a:hover, ul.sidebar-nav li.active a, ul.sidebar-nav li a:focus {
+    background: none repeat scroll 0 0 #eeeeee;
+    color: #6a6a6a;
+}
+ul.sidebar-nav li a i {
+    color: #6a6a6a;
+    font-size: 16px;
+    padding-right: 10px;
+}
+ul.sidebar-nav li a span.label {
+    margin-top: 13px;
+}
